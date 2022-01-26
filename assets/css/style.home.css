@@ -1,0 +1,708 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: none;
+}
+
+#navbarmenu > ul > li > a{
+    padding-right: 1.8rem;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.navbar-expand-lg .navbar-nav > li > a {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #000;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+    color: #0D6EFD;
+    /* color: #FFFFFF; */
+    /* border-radius: 5px; */
+}
+
+
+
+.container a img{
+    height: 90px;
+    width: 100px;
+    border-radius: 20px;
+    /* border:1px solid #0083CA; */
+}
+.container.hero h1 
+{
+    margin-top: 160px;
+    text-align: left;
+    /* position: absolute; */
+    text-shadow: 4px 4px 0px #FFFFFF;
+    color: #494949;
+    font-weight: bold;
+    /* font-family: Roboto; */
+    font-style: normal;
+    line-height: 106.1%;
+    font-size: 55px;
+}
+.container.hero p
+{
+    margin-top:20px;
+    text-align: left;
+    /* position: absolute; */
+    font-style: normal;
+    color: #494949;
+    font-weight: bold;
+    line-height: 106%;  
+}
+.container.hero a
+{
+    margin-top: 20px;
+    text-align: left;
+    /* position: absolute; */
+}
+.container.hero img
+{
+    margin-top: -350px;
+    width: 75%;
+}
+
+#faca-parte{
+    color:white;
+}
+
+/* .container-fluid img{
+    max-width:100%; 
+    height: auto;
+} */
+
+.section_rodape {
+    background: #0083CA;
+    padding-top: 4rem;
+    padding-bottom:4rem;
+}
+.local_ice{
+    font-size: 24px;
+    line-height: 32px;
+}
+.endereco{
+    font-size: 16px;
+}
+.local_ice, .endereco, .linksdados a, .linkslista a{
+    color:#ffffff;
+}
+.linkslista, .linksdados{
+    list-style: none;
+    line-height: 45px;
+}
+.linkslista a, .linksdados a{
+    text-decoration: none;
+}
+.cor_branca{
+    color:#ffffff;
+    margin-left: 10px;
+}
+/* .linksdados{
+    padding-left: 172px;
+} */
+.container-fluid.icema-numeros h2{
+    margin-top: 30px;
+    padding-top: 45px;
+    text-align: center;
+    color: #494949;
+    font-weight: bold;
+    font-family: Roboto Slab;
+    /* border: 1px solid red; */
+}
+.container-fluid.icema-numeros p{
+    /* margin-top: 45px; */
+    /* padding-bottom: 25px;
+    margin-bottom: 25px; */
+    text-align: center;
+    /* font-family: Josefin Sans; */
+}
+
+.container-fluid.icema-numeros .descricao{
+    margin-bottom:70px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #494949;
+    font-family: Josefin Sans;
+}
+.icema-numeros{
+    background: rgba(196, 196, 196, 0.2);
+    /* border: 1px solid red; */
+    /* padding: 100px; */
+}
+.numeros{
+    font-size: 5rem;
+    font-weight:700;
+    height: 160px;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.num_esquerda
+{
+    color: #63BC46;
+}
+.num_meio
+{
+    color: #FFCB04;
+}
+.num_direita
+{
+    color: #0083CA;
+} 
+
+.container.carousel{
+    /* border:1px solid red; */
+    margin-top: 45px;
+}
+.container.carousel h2
+{
+    margin-top: 30px;
+    padding-top: 45px;
+    text-align: center;
+    color: #494949;
+    font-weight: bold;
+    font-family: Roboto Slab;
+    /* border: 1px solid red; */
+}
+.carousel a
+{
+    float:right;
+    margin-top:-40px; 
+}
+.container.carousel-media-query h2
+{
+    margin-top: 30px;
+    padding-top: 45px;
+    text-align: center;
+    color: #494949;
+    font-weight: bold;
+}
+.container #programas
+{
+    margin-top: 45px;
+    margin-bottom: 60px;
+    /* border: 1px solid red; */
+}
+.card-body p
+{
+    text-align: center;
+    /* font-style: normal; */
+    /* color: #494949; */
+    /* font-weight: bold; */
+    line-height: 106%;
+    font-size: 14px;
+}
+.card-body 
+{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.card-title{
+    margin-bottom:1.5rem;
+    color:#474747;
+}
+.card-text{
+    margin-bottom: 2rem;
+    color: #606060;
+}
+.carousel-indicators button
+{
+    bottom: -80px;
+    text-align: center;
+    /* right: auto; */
+    background-color: blue;
+}
+
+.container.noticias
+{
+    margin-top: 45px;
+}
+.container.noticias h2
+{
+    margin-top: 30px;
+    padding-top: 45px;
+    text-align: center;
+    color: #494949;
+    font-weight: bold;
+    font-family: Roboto Slab;
+}
+
+.container .noticia
+{
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+.noticias a
+{
+    margin-top: -40px;
+}
+.container.associados h2
+{
+    margin-top: 30px;
+    padding-top: 45px;
+    text-align: center;
+    color: #494949;
+    font-weight: bold;
+    font-family: Roboto Slab;
+}
+.container.associados 
+{
+    margin-top: 45px;
+    margin-bottom: 60px; 
+}
+.container .associado
+{
+    margin-top: 45px; 
+}
+.container.associados img
+{
+    /* border: 1px solid #0083CA; */
+    width: 140px; 
+    /* height: 100px; */
+    height:auto ;
+    filter: invert(50%);
+}
+.container.associados  a
+{
+    float:right;
+}
+.map iframe
+{
+    margin-top: 90px;
+}
+.map
+{
+    margin: 0 !important;
+}
+@media only screen and (min-width:575px){
+    .container.carousel{
+        display: block;
+        /* background-color: green; */
+    }
+    .container.carousel-media-query{
+        display: none;
+    }
+}
+@media only screen and (max-width:575px){
+    .container.carousel{
+        display: none;
+        /* background-color: green; */
+    }
+    .container.carousel-media-query{
+        display: block;
+    }
+
+    .card-noticia{
+        margin-bottom: 40px;
+    }
+}
+.container.titulo h1 
+{
+    margin-top: 80px;
+    text-align: left;
+    /* position: absolute; */
+    text-shadow: 4px 4px 0px #FFFFFF;
+    color: #0d6efd;
+    font-weight: bold;
+    /* font-family: Roboto; */
+    font-style: normal;
+    line-height: 106.1%;
+    font-size: 55px;
+    font-family: Roboto Slab;
+}
+.container.programaNossaSaoLuis h2
+{
+    margin-top: 30px;
+    padding-top: 45px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #606060;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    /* border: 1px solid red; */
+}
+.texto
+{
+    margin-bottom: 15px;
+    text-align: left;
+    color: #606060;
+    font-size: 18px;
+    font:Roboto;
+}
+.container.hero
+{
+    animation: fadeInLeft 2s;
+}
+/*efeito aplicado em continer-fluid*/
+.container-fluid .tituloFadeInLeft
+{
+    animation: fadeInLeft 2s;
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity:0;
+        /* translateX reposiciona um elemento na direção horizontal e/ou vertical */
+        -webkit-transform:translateX(-100px); 
+        -ms-transform:translateX(-100px);
+        transform:translateX(-100px)}
+    100%{
+        opacity:1;
+        -webkit-transform:translateX(0);
+        -ms-transform:translateX(0);
+        transform:translateX(0)
+    }
+}
+.fadeInLeft{
+    -webkit-animation-name:fadeInLeft;
+    animation-name:fadeInLeft
+} 
+/*efeito aplicado em continer*/
+.container.tituloFadeInLeft
+{
+    animation: fadeInLeft 2s;
+}
+@keyframes fadeInLeft
+
+{
+    0%{
+        opacity:0;
+        /* translateX reposiciona um elemento na direção horizontal e/ou vertical */
+        -webkit-transform:translateX(-100px); 
+        -ms-transform:translateX(-100px);
+        transform:translateX(-100px)}
+    100%{
+        opacity:1;
+        -webkit-transform:translateX(0);
+        -ms-transform:translateX(0);
+        transform:translateX(0)
+    }
+}
+.fadeInLeft{
+    -webkit-animation-name:fadeInLeft;
+    animation-name:fadeInLeft
+} 
+.container.subTituloFadeIn
+{
+    animation: fadeIn 2s linear;
+}
+@keyframes fadeIn{
+    from{opacity: 0};
+    to{opacity: 1}     
+}
+#missao{
+    margin-right: 10px;
+}
+#miniLogo{
+    float:right;
+    margin-top:25px;
+    width: 490px;
+    margin-top: -10px;
+}
+#altura{
+    height:700px;
+}
+#visao{
+    margin-top:20px;
+    
+}
+
+.container .quemSomos{
+    /* border:1px solid #000; */
+    margin-top: 45px;
+}
+.container .quemSomos h4{
+    color:#000;
+    font-weight: bold;
+    font-family: Roboto Slab;
+
+}
+.container .quemSomos p{
+    
+    /* font-weight: bold; */
+    font-family: Josefin Sans;
+    font-size: 18px;
+
+}                  
+#linhaMissao {
+    color: #c9242b;
+    font-weight: bolder;
+}
+#linhaVisao {
+    color: #0D6EFD;
+}
+#linhaQuemSomos {
+    color: #63BC46;
+}
+/* #capitular::first-letter{
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+} */
+.container.objetivos{
+    margin-top: 45px;
+    font-style: normal;
+    color: #494949;
+    font-weight: bold;
+    /* border: 1px solid red; */
+     
+}
+h2{
+    margin-bottom: 80px;
+    margin-top: 40px;
+    font-style: normal;
+    color: #494949;
+    font-weight: bold;
+    font-family: Roboto Slab;
+}
+
+.container.objetivos p{
+    font-family: Josefin Sans;
+}
+#imgFundo
+{
+    /* background-image: url('/www/assets/img/teste.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 600px;
+    margin-top: 100px;
+    /* margin-left: 190px; */
+   
+}
+.textoMissao
+{
+    margin-top: -720px;
+    margin-left: 200px;
+    z-index: 2;
+    position: relative;
+}
+.linhaMissao
+{
+    border: 1px solid #c9242b;
+}
+#textoVisao
+{
+    margin-top: -560px;
+    z-index: 5;
+    margin-right:120px ;
+    text-align: left;
+}
+.linhaVisao
+{
+    border: 1px solid #0083CA; 
+}
+#textoSobre
+{
+    margin-top: -340px;
+    margin-left: 20px;
+    z-index: 5;
+}
+.linhaSobre
+{
+    border: 1px solid darkgreen; 
+}
+
+h4, .modal-title
+{
+    text-align: center;
+    color: #ffffff;
+}
+.modal-header
+{
+    background-color:#0d6efd ;
+}
+label.error{
+    color:#CC0000;
+    /* font-weight:bold; */
+    float:right;
+    font-size: 14px;
+    font-family:sans-serif;
+    padding-top: 5px;
+}
+
+.container-fluid.governancia 
+{
+    background-color: #0083CA;
+    margin-top: 45px;
+}
+.container-fluid.governancia h3
+{
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 40px;
+} 
+.container-fluid.governancia img
+{
+    width:90px;
+    height:90px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+}
+.container-fluid.governancia p
+{
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.container-fluid.governancia p .nome
+{
+    margin-top:-10px;
+    text-align: center;
+}
+.container-fluid.governancia .conselho
+{
+    background-color: #FFFFFF;
+}
+.container-fluid.governancia .conselho h3
+{
+    color: #0083CA;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+.container-fluid.governancia .conselho img
+{
+    width:90px;
+    height:90px;
+    border-radius: 50px;
+    border: 2px solid #0083CA;
+}
+.container-fluid.governancia .conselho p
+{
+    margin-top: 10px;
+    color: #0083CA;
+}
+.container-fluid.governancia .conselho p .nome
+{
+    margin-top:-10px;
+    text-align: center;
+}
+.container.governancia-ice
+{
+    margin-top: 100px;
+}
+.container.governancia-ice h1{
+    text-shadow: 4px 4px 4px #FFFFFF;
+    color: #494949;
+    font-weight: bold;
+    font-family: Roboto Slab;
+}
+ .container.governancia-ice p
+{
+    margin-top: 60px;   
+    text-align: center;
+    font-size: 19px;
+    font-family: Josefin Sans;
+}
+
+.container-fluid.equipe 
+{
+    background-color: #63BC46;
+    margin-top: 45px;
+    padding: 100px;
+}
+.container-fluid.equipe p
+{
+    color: #FFFFFF;
+    font-size: 19px;
+}
+.container-fluid.equipe .icone
+{
+    color: #FFFFFF;
+}
+.container.titulo .tituloEquipe
+{
+    color: #63BC46;
+}
+.container.equipeTecnica
+{
+    margin-top: 100px;   
+}
+.container.equipeTecnica h1{
+    text-shadow: 4px 4px 4px #FFFFFF;
+    color: #494949;
+    font-weight: bold;
+    font-family: Roboto Slab;
+}
+.container.equipeTecnica p
+{
+    margin-top: 60px;   
+    text-align: center;
+    font-size: 19px;
+    font-family: Josefin Sans;
+}
+
+
+.container.representacaoInstitucional
+{
+    margin-top: 45px;
+    /* border: 1px solid red; */
+}
+.container.representacaoInstitucional h4
+{
+    margin-top: 40px;
+    color: #0083CA;
+    font-weight: bold;
+    font-family: Roboto Slab;
+}
+.container .imgRepresentacao{
+    width:370px;
+    height:250px;
+    border-radius: 5px;
+    /* margin-left: ; */
+
+}
+.container .imgLogo{
+    width:130px;
+    height: 105px;; 
+    filter: invert(50%); 
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    
+}
+
+hr{
+    margin-top: 10px;
+    /* border: 2px solid #0083CA; */
+}
+
+.container.representacaoInstitucional p
+{
+    margin-top: 25px;   
+    font-size: 19px;
+    font-family: Josefin Sans;
+    text-align: justify;
+}
+
+
+/* .container .imgSecundaria img{
+    margin-top: 20px;
+    border: 4px solid #0083CA;
+} */
+
+
+#textoOcultoC1, #textoOcultoC2, #textoOcultoC3, #textoOcultoC4, #textoOcultoC5, #textoOcultoC6{
+    display: none;
+}
+#botaoFimC1, #botaoFimC2, #botaoFimC3, #botaoFimC4, #botaoFimC5,  #botaoFimC6{
+    display: none;
+    /* background-color: brown; */
+    color: cornsilk;
+}
+#botaoInicioC1, #botaoInicioC2, #botaoInicioC3, #botaoInicioC4, #botaoInicioC5, #botaoInicioC5{
+    /* background-color: darkorange; */
+    color: cornsilk;
+    border: none;
+}
