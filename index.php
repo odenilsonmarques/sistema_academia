@@ -1,7 +1,6 @@
 <?php
-include_once 'config/connection.php';
+    include_once 'config/connection.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,36 +11,17 @@ include_once 'config/connection.php';
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <!--conteudo referente ao cabecalho-->
-        <nav class="navbar navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">ACADEMIA</a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">SOBRE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">PROFESSORES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">PORTIFÓLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">LOGIN</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <?php include_once 'header.php' ?>
 
-    <footer>
-         <!--conteudo referente ao rodapé-->
-         <a href="cadStudent.php">cadastro de estudante</a>
-    </footer>
+    <a href="registerStudent.php">cadastro de estudante</a><br><br>
+    <a href="registerPayment.php">pagamento</a><br><br>
+    <a href="registerTeacher.php">cadastrar instrutor</a><br><br>
+    <a href="registerEvaluation.php">cadastrar avaliação</a><br><br>
+    <a href="listStudent.php">alunos</a><br><br>
+    <a href="test.php">exibe div</a><br><br>
+
+    <?php include_once 'footer.php'?>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

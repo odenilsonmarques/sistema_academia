@@ -1,31 +1,30 @@
-version: '3.5'
+<?php
+require 'config.php';
 
-services:
-  apache:
-    build: ./Docker
-    image: apache:latest
-    ports:
-     - "80:80"
-    restart: always
-networks:
-       default:
-         name: frontend-network
+$listaPagamentos =  [];
 
-services:
-  db:
-    image: mariadb:latest
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-    depends_on:
-    - "apache"
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-    - "8080:8080"
-    depends_on:
-    - "db"
-networks:
-      default:
-        name: frontend-network
+$queryPagamentos = $conexaoPDO->query("SELECT alunos.id,alunos.nome,pagamentos.id,pagamentos.valor,pagamentos.data_pagamento FROM pagamentos, alunos WHERE pagamentos.aluno_id = alunos.id");
+if($queryPagamentos->rowCount() > 0){
+    $listaPagamentos = $queryPagamentos->fetchAll(PDO::FETCH_ASSOC);
+}
+?>
+<a href="adicionarPagamento.php">Adicionar pagamento</a>
+<table border="1" width="100%">
+    <tr>
+        <th>ALUNO</th>
+        <th>VALOR</th>
+        <th>DATA</th>
+        <th>AÇÃO</th>
+    </tr>
+    <?php foreach($listaPagamentos as $pagamentos):?>
+        <tr>
+            <td><?=$pagamentos['nome'];?></td>
+            <td><?=$pagamentos['valor'];?></td>
+            <td><?=$pagamentos['data_pagamento'];?></td>
+            <td>
+                <a href="editarPagamento.php?id=<?=$pagamentos['id'];?>">editar</a>
+                <a href="excluirPagamento.php?id=<?=$pagamentos['id'];?>" onclick="return confirm('Confirmar Exclusão ?')">excluir</a>
+            </td>
+        </tr>
+    <?php endforeach;?>
+</tbale>

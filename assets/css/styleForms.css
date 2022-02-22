@@ -1,0 +1,10 @@
+label{
+    font-size: 15px;
+    font-weight: bolder;
+}
+input{
+    height:35px ;
+}
+#description_comorbidity{
+    display: none;
+}
