@@ -19,6 +19,7 @@
     <a href="registerEvaluation.php">cadastrar avaliação</a><br><br>
     <a href="listStudent.php">alunos</a><br><br>
     <a href="test.php">exibe div</a><br><br>
+    <a href="situationStudent.php">situacao pagamento</a><br><br>
 
     <?php include_once 'footer.php'?>
 
