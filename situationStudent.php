@@ -20,11 +20,11 @@ require_once 'config/connection.php';
                         <th>ALUNO</th>
                         <th>REGISTRADO EM</th>
                         <th>STATUS</th>
-                        <th>DATA DO PAGAMENTO</th>
+                        <th>MÊS</th>
                     </tr>
                     <?
                         $listStudentPayments = [];
-                        $listSituationPayments = $connectionPDO->query("SELECT student.id_student,student.name,student.date_register,payment.id,payment.status,payment.date_payment FROM payment, student WHERE payment.id_student = student.id_student");
+                        $listSituationPayments = $connectionPDO->query("SELECT student.id_student,student.name,student.date_register,payment.id,payment.status,payment.month FROM payment, student WHERE payment.id_student = student.id_student");
                         if($listSituationPayments->rowCount() > 0){
                             $listStudentPayments = $listSituationPayments->fetchAll(PDO::FETCH_ASSOC);
                             foreach($listStudentPayments as $listStudentPayment){?>
@@ -32,7 +32,7 @@ require_once 'config/connection.php';
                                     <td><?=$listStudentPayment['name'];?></td>
                                     <td><?= date('d/m/Y', strtotime($listStudentPayment['date_register']));?></td>
                                     <td><?=$listStudentPayment['status'];?></td>
-                                    <td><?= date('d/m/Y', strtotime($listStudentPayment['date_payment']));?></td>
+                                    <td><?=$listStudentPayment['month'];?></td>
                                     <td>editar</td>
                                 </tr>
                             <?php

@@ -16,7 +16,7 @@
     <?php include_once 'header.php'?>
     <div class="container">
         <div class="row">
-            <h1 class="text-center mt-5">cadastro avaliação</h1>
+            <h1 class="text-center mt-5">CADASTRO DE AVALIAÇÃO</h1>
             <form action="receiveEvaluation.php" method="POST">
                 <div class="row">
                     <div class="col-lg-6">

@@ -38,8 +38,22 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <label for="date_payment" class="form-label mt-3" >DATA DO PAGAMENTO</label>
-                        <input type="date" name="date_payment" id="date_payment" class="form-control" required>  
+                        <label for="month" class="form-label mt-3" >MÊS DE REFERÊNCIA</label>
+                        <select class="form-select" name="month" id="month" required>
+                            <option value="">SELECIONE</option>
+                            <option value="JANEIRO">JANEIRO</option>
+                            <option value="FEVEREIRO">FEVEREIRO</option>
+                            <option value="MARÇO">MARÇO</option>
+                            <option value="ABRIL">ABRIL</option>
+                            <option value="MAIO">MAIO</option>
+                            <option value="JUNIO">JUNIO</option>
+                            <option value="JULHO">JULHO</option>
+                            <option value="AGOSTO">AGOSTO</option>
+                            <option value="SETEMBRO">SETEMBRO</option>
+                            <option value="OUTUBRO">OUTUBRO</option>
+                            <option value="NOVEMBRO">NOVEMBRO</option>
+                            <option value="DEZEMBRO">DEZEMBRO</option>
+                        </select> 
                     </div>
                     <div class="col-lg-6">
                         <label for="value" class="form-label mt-3">VALOR</label><br>
