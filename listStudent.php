@@ -16,6 +16,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <table class="table table-striped table-hover">
+                <thead class="table-dark">
                     <tr>
                         <th>ALUNO</th>
                         <th>TELEFONE</th>
@@ -23,6 +24,8 @@
                         <th>REGISTRADO EM</th>
                         <th>AÇÃO</th>
                     </tr>
+                </thead>
+                   
                     <?php
                         $listStudents = [];
                         $listAllStudents = $connectionPDO->query("SELECT * FROM student");
@@ -34,7 +37,12 @@
                                     <td><?=$listStudent['phone'];?></td>
                                     <td><?=$listStudent['email'];?></td>
                                     <td><?= date('d/m/Y', strtotime($listStudent['date_register']));?></td>
-                                    <td>editar</td>
+                                    <td>
+                                        <a href="deletStudent.php?id_student=<?=$listStudent['id_student'];?>" onclick="return confirm('CONFIRMAR EXCLUSÃO ?')" class="btn btn-danger btn-sm">Excluir</a>
+                                        <a href="#" class="btn btn-primary btn-sm">Editar</a>
+
+                                        <!-- <a href="editarProduto.php?id_products=<?=$produtos['id_products'];?>">Editar</a> -->
+                                    </td>
                                 </tr>
                             <?php
                             }
