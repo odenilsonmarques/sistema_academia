@@ -28,6 +28,7 @@
                    
                     <?php
                         $listStudents = [];
+                        //nesse caso usar o query, pois vai listar vai dados
                         $listAllStudents = $connectionPDO->query("SELECT * FROM student");
                         if($listAllStudents->rowCount() > 0){
                             $listStudents = $listAllStudents->fetchAll(PDO::FETCH_ASSOC);
@@ -39,9 +40,7 @@
                                     <td><?= date('d/m/Y', strtotime($listStudent['date_register']));?></td>
                                     <td>
                                         <a href="deletStudent.php?id_student=<?=$listStudent['id_student'];?>" onclick="return confirm('CONFIRMAR EXCLUSÃO ?')" class="btn btn-danger btn-sm">Excluir</a>
-                                        <a href="#" class="btn btn-primary btn-sm">Editar</a>
-
-                                        <!-- <a href="editarProduto.php?id_products=<?=$produtos['id_products'];?>">Editar</a> -->
+                                        <a href="editStudent.php?id_student=<?=$listStudent['id_student'];?>"  class="btn btn-primary btn-sm">Editar</a>
                                     </td>
                                 </tr>
                             <?php

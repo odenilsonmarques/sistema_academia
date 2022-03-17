@@ -7,9 +7,6 @@ $email = filter_input(INPUT_POST, 'email');
 $address = filter_input(INPUT_POST, 'address');
 $age = filter_input(INPUT_POST, 'age');
 
- 
- 
-
 //APOS OBTER A VARIAVEL VERIFICO SE O VALOR FOI DEFINIDO(OU SEJA FOI RETORNADO TRUE)
 if($name && $phone){
     //VERIFICANDO SE JA EXISTE UM EMAIL IGUAL AO QUE ESTÁ SENDO CADASTRADO

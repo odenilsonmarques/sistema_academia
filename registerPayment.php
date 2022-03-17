@@ -63,8 +63,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                    <a class="btn btn-danger mt-4" href="index.php">CANCELAR</a>
-                        <input type="submit" value="LANCAR PAGAMENTO" class="btn btn-primary  mt-4">
+                        <a class="btn btn-danger mt-4" href="index.php">CANCELAR</a>
+                        <button class="btn btn-primary mt-4" type="submit">CADASTRAR</button>
                     </div>
                 </div>
             </form>
