@@ -18,6 +18,7 @@
     <a href="registerTeacher.php">cadastrar instrutor</a><br><br>
     <a href="registerEvaluation.php">cadastrar avaliação</a><br><br>
     <a href="listStudent.php">alunos</a><br><br>
+    <a href="listTeacher.php">instrutores</a><br><br>
     <a href="test.php">exibe div</a><br><br>
     <a href="situationStudent.php">situacao pagamento</a><br><br>
 
