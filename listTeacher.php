@@ -34,7 +34,7 @@
                             $listTeachers = $listAllTeachers->fetchAll(PDO::FETCH_ASSOC);
                             foreach($listTeachers as $listTeacher){ ?>
                                 <tr>
-                                    <td><?= $listTeacher['name'];?></td>
+                                    <td><?= $listTeacher['nameTeacher'];?></td>
                                     <td><?= $listTeacher['phone'];?></td>
                                     <td><?= $listTeacher['email'];?></td>
                                     <td>
