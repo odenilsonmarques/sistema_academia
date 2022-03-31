@@ -44,7 +44,7 @@
                                     <td>
                                         <!-- <a href="deletStudent.php?id_student=<?=$listStudent['id_student'];?>" onclick="return confirm('CONFIRMAR EXCLUSÃO ?')" class="btn btn-danger btn-sm">Excluir</a> -->
                                         <a href="deletEvaluation.php?id=<?=$listEvaluation['id'];?>" onclick="return confirm('CONFIRMAR EXCLUSÃO ?')" class="btn btn-danger btn-sm">Excluir</a>
-                                        <a href="#"  class="btn btn-primary btn-sm">Editar</a>
+                                        <a href="editEvaluation.php?id=<?= $listEvaluation['id'];?>"  class="btn btn-primary btn-sm">Editar</a>
                                     </td>
                                 </tr>
                             <?php

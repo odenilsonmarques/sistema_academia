@@ -40,7 +40,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <label for="name" class="form-label mt-3">NOME</label>
-                            <input type="text" name="name" id="name" value="<?=$infor['name'];?>" class="form-control" maxlength="100" onKeypress="return onlyLetter(event)" required autofocus>
+                            <input type="text" name="nameTeacher" id="nameTeacher" value="<?=$infor['nameTeacher'];?>" class="form-control" maxlength="100" onKeypress="return onlyLetter(event)" required autofocus>
                         </div>
                         <div class="col-lg-6">
                             <label for="phone" class="form-label mt-3">TELEFONE</label>

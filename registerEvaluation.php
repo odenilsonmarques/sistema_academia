@@ -46,7 +46,7 @@
                                 if($listAllTeachers->rowCount() > 0){
                                     $listTeachers = $listAllTeachers->fetchAll(PDO::FETCH_ASSOC);
                                     foreach($listTeachers as $listTeacher){ ?>
-                                        <option value="<?=$listTeacher['id_teacher'];?>"><?=$listTeacher['name'];?></option>
+                                        <option value="<?=$listTeacher['id_teacher'];?>"><?=$listTeacher['nameTeacher'];?></option>
                                     <?php
                                     }
                                 }
